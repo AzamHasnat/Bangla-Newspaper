@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        app:contentInsetStart="0dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/bg_home"
+        android:elevation="0dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageButton
+                android:id="@+id/ibtnBack"
+                android:layout_width="@dimen/thirty_dp"
+                android:layout_height="@dimen/thirty_dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="@dimen/five_dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_back_btn_selector_white"
+                android:visibility="visible"
+                android:contentDescription="Image" />
+
+            <TextView
+                android:id="@+id/personal_accounting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Newspaper"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/eighteen_sp" />
+
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="bottom"
+        app:tabMode="scrollable"
+        app:tabTextColor="#D4D4DA"
+        app:tabIndicatorColor="@color/blue"
+        app:tabSelectedTextColor="@color/blue"
+        app:tabIndicatorHeight="2dp"
+        app:tabIconTint="@color/blue"
+        app:tabTextAppearance="@style/TabLayoutTextStyle"
+        android:background="#FBF9F9"/>
+    <!--  android:layout_height="wrap_content"
+      android:minHeight="?attr/actionBarSize"-->
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tablayout"/>
+
+</LinearLayout>
