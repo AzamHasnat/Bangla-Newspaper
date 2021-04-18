@@ -13,7 +13,7 @@
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@drawable/bg_home"
+        android:background="@color/colorPrimary1"
         android:elevation="0dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
 
@@ -27,6 +27,7 @@
                 android:layout_width="@dimen/thirty_dp"
                 android:layout_height="@dimen/thirty_dp"
                 android:layout_alignParentStart="true"
+                android:tint="@color/black"
                 android:layout_centerInParent="true"
                 android:background="@android:color/transparent"
                 android:foreground="?attr/selectableItemBackground"
@@ -36,7 +37,7 @@
                 android:visibility="visible"
                 android:contentDescription="Image" />
 
-            <TextView
+           <!-- <TextView
                 android:id="@+id/personal_accounting"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -44,7 +45,18 @@
                 android:text="Newspaper"
                 android:textStyle="bold"
                 android:textColor="@android:color/white"
-                android:textSize="@dimen/eighteen_sp" />
+                android:textSize="@dimen/eighteen_sp" />-->
+
+            <soup.neumorphism.NeumorphTextView
+                style="@style/Widget.Neumorph.TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Newspaper"
+                android:textSize="35sp"
+                android:textColor="@color/colorPrimary1"/>
 
 
         </RelativeLayout>
