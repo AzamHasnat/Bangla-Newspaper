@@ -79,13 +79,13 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
                 EntertainmentFragment entertainmentFragment = new EntertainmentFragment();
                 return entertainmentFragment;
 
-            case 10:
+          /*  case 10:
                 BanglaIntFragment banglaIntFragment = new BanglaIntFragment();
-                return banglaIntFragment;
-            case 11:
+                return banglaIntFragment;*/
+            case 10:
                 JobsFragment jobsFragment = new JobsFragment();
                 return jobsFragment;
-            case 12:
+            case 11:
                 RadioFragment radioFragment = new RadioFragment();
                 return radioFragment;
 
