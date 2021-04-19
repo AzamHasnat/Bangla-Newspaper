@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@android:color/white"
     tools:context=".fragment.BanglaFragment">
 
@@ -15,7 +15,173 @@
         android:gravity="center"
         android:weightSum="10">
 
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            app:neumorph_shapeType="basin">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/prothomalo"
+                android:scaleType="fitCenter"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+
+                >
+            <soup.neumorphism.NeumorphTextView
+                style="@style/Widget.Neumorph.TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="PROTHOM ALO"
+                android:textColor="@color/colorPrimary1"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:neumorph_shadowColorLight="@android:color/darker_gray"
+                />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/prothomalo"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+
+                >
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="PROTHOM ALO"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:neumorph_shadowColorLight="#501B0A"
+                    />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+
+            android:layout_marginBottom="2dp"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/prothomalo"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+
+                >
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="PROTHOM ALO"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="@android:color/darker_gray"
+                    />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+
+            android:layout_marginBottom="2dp"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/prothomalo"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+
+                >
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="PROTHOM ALO"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    app:neumorph_shadowColorLight="@color/black"
+                    app:neumorph_shadowColorDark="@android:color/darker_gray"
+                    />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
 
     </LinearLayout>
 </ScrollView>

@@ -56,7 +56,9 @@
                 android:textStyle="bold"
                 android:text="Newspaper"
                 android:textSize="35sp"
-                android:textColor="@color/colorPrimary1"/>
+                android:textColor="@color/colorPrimary1"
+                app:neumorph_shadowColorDark="@android:color/darker_gray"
+                />
 
 
         </RelativeLayout>
