@@ -220,6 +220,170 @@
             </RelativeLayout>
 
         </soup.neumorphism.NeumorphCardView>
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+
+            android:layout_marginBottom="2dp"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/amarsangbad"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAILY AMAR SANGBAD"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+
+            android:layout_marginBottom="2dp"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/protidinersangbad"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PROTIDINER SANGBAD"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+
+            android:layout_marginBottom="2dp"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/jugantor"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JUGANTOR"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+
+            android:layout_marginBottom="2dp"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sangram"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAILY SANGRAM"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
 
 
 
