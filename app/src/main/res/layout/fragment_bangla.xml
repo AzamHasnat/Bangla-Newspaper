@@ -12,8 +12,7 @@
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
         android:orientation="vertical"
-        android:gravity="center"
-        android:weightSum="10">
+        android:gravity="center">
 
         <soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
@@ -21,11 +20,10 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
-            android:layout_marginBottom="2dp"
             app:neumorph_shapeType="basin">
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="15dp"
@@ -55,18 +53,17 @@
             </RelativeLayout>
 
         </soup.neumorphism.NeumorphCardView>
+
         <soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
-
-            android:layout_marginBottom="2dp"
             app:neumorph_shapeType="basin">
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="15dp"
@@ -97,22 +94,21 @@
             </RelativeLayout>
 
         </soup.neumorphism.NeumorphCardView>
+
         <soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
-
-            android:layout_marginBottom="2dp"
             app:neumorph_shapeType="basin">
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="70dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:scaleType="fitCenter"
@@ -129,7 +125,7 @@
                     style="@style/Widget.Neumorph.TextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ITTEFAQ"
+                    android:text="DAILY ITTEFAQ"
                     android:textColor="@color/colorPrimary1"
                     android:textSize="22sp"
                     android:textStyle="bold"
@@ -138,18 +134,17 @@
             </RelativeLayout>
 
         </soup.neumorphism.NeumorphCardView>
+
         <soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
-
-            android:layout_marginBottom="2dp"
             app:neumorph_shapeType="basin">
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="15dp"
@@ -179,18 +174,17 @@
             </RelativeLayout>
 
         </soup.neumorphism.NeumorphCardView>
+
         <soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
-
-            android:layout_marginBottom="2dp"
-            app:neumorph_shapeType="basin">
+           app:neumorph_shapeType="basin">
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="15dp"
@@ -220,18 +214,17 @@
             </RelativeLayout>
 
         </soup.neumorphism.NeumorphCardView>
+
         <soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
-
-            android:layout_marginBottom="2dp"
             app:neumorph_shapeType="basin">
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="15dp"
@@ -261,18 +254,17 @@
             </RelativeLayout>
 
         </soup.neumorphism.NeumorphCardView>
+
         <soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
-
-            android:layout_marginBottom="2dp"
             app:neumorph_shapeType="basin">
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="15dp"
@@ -302,18 +294,17 @@
             </RelativeLayout>
 
         </soup.neumorphism.NeumorphCardView>
+
         <soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
-
-            android:layout_marginBottom="2dp"
             app:neumorph_shapeType="basin">
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="15dp"
@@ -343,18 +334,17 @@
             </RelativeLayout>
 
         </soup.neumorphism.NeumorphCardView>
+
         <soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
-
-            android:layout_marginBottom="2dp"
             app:neumorph_shapeType="basin">
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="15dp"
@@ -384,9 +374,6 @@
             </RelativeLayout>
 
         </soup.neumorphism.NeumorphCardView>
-
-
-
 
     </LinearLayout>
 </ScrollView>
