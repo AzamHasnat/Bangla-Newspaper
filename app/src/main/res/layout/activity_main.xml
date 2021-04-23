@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+
+    tools:ignore="SmallSp,ContentDescription,Autofill">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/my_toolbar"
@@ -13,7 +14,7 @@
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@drawable/bg_home"
+        android:background="@color/colorPrimary1"
         android:elevation="0dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
 
@@ -27,51 +28,70 @@
                 android:layout_width="@dimen/thirty_dp"
                 android:layout_height="@dimen/thirty_dp"
                 android:layout_alignParentStart="true"
+                android:tint="@color/black"
                 android:layout_centerInParent="true"
                 android:background="@android:color/transparent"
                 android:foreground="?attr/selectableItemBackground"
                 android:padding="@dimen/five_dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_back_btn_selector_white"
-                android:visibility="visible"
+                android:visibility="gone"
                 android:contentDescription="Image" />
 
-            <TextView
-                android:id="@+id/personal_accounting"
+            <!-- <TextView
+                 android:id="@+id/personal_accounting"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerInParent="true"
+                 android:text="Newspaper"
+                 android:textStyle="bold"
+                 android:textColor="@android:color/white"
+                 android:textSize="@dimen/eighteen_sp" />-->
+
+            <soup.neumorphism.NeumorphTextView
+                android:id="@+id/name"
+                style="@style/Widget.Neumorph.TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="Newspaper"
+                android:gravity="center"
                 android:textStyle="bold"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/eighteen_sp" />
+                android:text="Newspaper"
+                android:textSize="35sp"
+                android:textColor="@color/colorPrimary1"
+                app:neumorph_shadowColorDark="@android:color/darker_gray"
+                />
 
 
         </RelativeLayout>
 
     </androidx.appcompat.widget.Toolbar>
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tablayout"
+    <ImageView
+        android:id="@+id/img_line"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:layout_gravity="bottom"
-        app:tabMode="scrollable"
-        app:tabTextColor="#D4D4DA"
-        app:tabIndicatorColor="@color/blue"
-        app:tabSelectedTextColor="@color/blue"
-        app:tabIndicatorHeight="2dp"
-        app:tabIconTint="@color/blue"
-        app:tabTextAppearance="@style/TabLayoutTextStyle"
-        android:background="#FBF9F9"/>
-    <!--  android:layout_height="wrap_content"
-      android:minHeight="?attr/actionBarSize"-->
+        android:layout_height="1dp"
+        android:layout_below="@+id/my_toolbar"
+        android:background="#F2F2F3"
+        tools:ignore="ContentDescription" />
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewPager"
-        android:background="@android:color/white"
+
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_below="@+id/my_toolbar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/tablayout"/>
+        android:layout_height="match_parent"/>
 
-</LinearLayout>
+    <!--   <com.airbnb.lottie.LottieAnimationView
+           android:id="@+id/progressa"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:layout_alignParentBottom="true"
+           android:layout_centerInParent="true"
+           android:layout_gravity="center"
+           android:visibility="gone"
+           app:lottie_autoPlay="true"
+           app:lottie_loop="true"
+           app:lottie_rawRes="@raw/knu" />-->
+</RelativeLayout>
