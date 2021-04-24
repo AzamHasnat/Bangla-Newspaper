@@ -72,8 +72,8 @@ public class Home extends AppCompatActivity implements BanglaFragment.OnFragment
         tabLayout.addTab(tabLayout.newTab().setText("Sports"));
         tabLayout.addTab(tabLayout.newTab().setText("Technology"));
         tabLayout.addTab(tabLayout.newTab().setText("Business"));
-        tabLayout.addTab(tabLayout.newTab().setText("Entertainment"));
         tabLayout.addTab(tabLayout.newTab().setText("TV News"));
+        tabLayout.addTab(tabLayout.newTab().setText("Entertainment"));
         tabLayout.addTab(tabLayout.newTab().setText("Job Circular"));
         tabLayout.addTab(tabLayout.newTab().setText("Radio"));
 
