@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@android:color/white"
-    tools:context=".fragment.EnglishFragment">
+    tools:context=".fragment.TechnologyFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,12 +25,12 @@
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="70dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="35dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_gravity="center"
-                android:src="@drawable/prothomalo"
+                android:src="@drawable/banglatech24"
                 android:scaleType="fitCenter"/>
 
             <RelativeLayout
@@ -44,7 +44,7 @@
                     style="@style/Widget.Neumorph.TextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="THE DAILY STAR"
+                    android:text="BANGLA TECH 24"
                     android:textColor="@color/colorPrimary1"
                     android:textSize="22sp"
                     android:textStyle="bold"
@@ -70,7 +70,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_gravity="center"
-                android:src="@drawable/prothomalo"
+                android:src="@drawable/biztech24"
                 android:scaleType="fitCenter"/>
 
             <RelativeLayout
@@ -84,7 +84,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="NEW AGE"
+                    android:text="BIZ TECH 24"
                     android:textColor="@color/colorPrimary1"
                     android:textSize="22sp"
                     android:textStyle="bold"
@@ -112,7 +112,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/prothomalo" />
+                android:src="@drawable/dailyictnews" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -125,7 +125,7 @@
                     style="@style/Widget.Neumorph.TextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="THE FINANCIAL EXPRESS"
+                    android:text="DAILY ICT NEWS"
                     android:textColor="@color/colorPrimary1"
                     android:textSize="22sp"
                     android:textStyle="bold"
@@ -146,12 +146,12 @@
             <ImageView
                 android:layout_width="220dp"
                 android:layout_height="70dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_gravity="center"
-                android:src="@drawable/prothomalo"
+                android:src="@drawable/techzoom"
                 android:scaleType="fitCenter"/>
 
             <RelativeLayout
@@ -165,7 +165,7 @@
                     style="@style/Widget.Neumorph.TextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="THE BUSINESS STANDARD"
+                    android:text="TECH ZOOM"
                     android:textColor="@color/colorPrimary1"
                     android:textSize="22sp"
                     android:textStyle="bold"
@@ -191,7 +191,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_gravity="center"
-                android:src="@drawable/prothomalo"
+                android:src="@drawable/digit"
                 android:scaleType="fitCenter"/>
 
             <RelativeLayout
@@ -205,7 +205,7 @@
                     style="@style/Widget.Neumorph.TextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="DHAKA TRIBUNE"
+                    android:text="DIGIT"
                     android:textColor="@color/colorPrimary1"
                     android:textSize="22sp"
                     android:textStyle="bold"
@@ -231,7 +231,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_gravity="center"
-                android:src="@drawable/prothomalo"
+                android:src="@drawable/techgup"
                 android:scaleType="fitCenter"/>
 
             <RelativeLayout
@@ -245,7 +245,7 @@
                     style="@style/Widget.Neumorph.TextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="DAILY SUN"
+                    android:text="TECH GUP"
                     android:textColor="@color/colorPrimary1"
                     android:textSize="22sp"
                     android:textStyle="bold"
@@ -266,12 +266,12 @@
             <ImageView
                 android:layout_width="220dp"
                 android:layout_height="70dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_gravity="center"
-                android:src="@drawable/prothomalo"
+                android:src="@drawable/asianetnews"
                 android:scaleType="fitCenter"/>
 
             <RelativeLayout
@@ -285,7 +285,7 @@
                     style="@style/Widget.Neumorph.TextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="THE INDEPENDENT"
+                    android:text="ASIANET NEWS TECH"
                     android:textColor="@color/colorPrimary1"
                     android:textSize="22sp"
                     android:textStyle="bold"
