@@ -14,7 +14,7 @@
         android:orientation="vertical"
         android:gravity="center">
 
-        <soup.neumorphism.NeumorphCardView
+        <!--<soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -614,7 +614,6 @@
             </RelativeLayout>
 
         </soup.neumorphism.NeumorphCardView>
-
 
         <soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
@@ -1216,7 +1215,6 @@
             </RelativeLayout>
 
         </soup.neumorphism.NeumorphCardView>
-
 
         <soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
@@ -2057,8 +2055,7 @@
                     app:neumorph_shadowColorDark="#1C0505" />
             </RelativeLayout>
 
-        </soup.neumorphism.NeumorphCardView>
-
+        </soup.neumorphism.NeumorphCardView>-->
 
 
     </LinearLayout>
