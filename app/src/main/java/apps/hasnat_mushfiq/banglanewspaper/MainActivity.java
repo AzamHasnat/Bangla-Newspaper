@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         window.setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.black));
 
         url = getIntent().getStringExtra("url");
-        names = getIntent().getStringExtra("url");
+        names = getIntent().getStringExtra("name");
 
         webView = findViewById(R.id.webview);
         name = findViewById(R.id.name);

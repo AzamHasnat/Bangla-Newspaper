@@ -7,7 +7,7 @@
     android:background="@android:color/white"
     tools:context=".fragment.EnglishFragment">
 
-    <LinearLayout
+   <!-- <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
@@ -696,5 +696,5 @@
         </soup.neumorphism.NeumorphCardView>
 
 
-    </LinearLayout>
+    </LinearLayout>-->
 </ScrollView>
