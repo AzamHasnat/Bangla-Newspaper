@@ -9,12 +9,15 @@ import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import apps.hasnat_mushfiq.banglanewspaper.MainActivity;
 import apps.hasnat_mushfiq.banglanewspaper.R;
+import soup.neumorphism.NeumorphCardView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -30,8 +33,7 @@ public class BanglaFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-
-    LinearLayout prothomalo,kalerkontho;
+    NeumorphCardView prothomalo,kalerkontho;
     Intent intent;
 
     // TODO: Rename and change types of parameters
@@ -71,6 +73,7 @@ public class BanglaFragment extends Fragment {
         }
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -84,8 +87,10 @@ public class BanglaFragment extends Fragment {
                 Intent intent = new Intent(getContext(), MainActivity.class);
                 intent.putExtra("url","https://www.prothomalo.com/");
                 intent.putExtra("name","Prothom Alo");
+                startActivity(intent);
             }
         });
+
 
         // Inflate the layout for this fragment
         return v;
