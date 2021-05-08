@@ -7,16 +7,28 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:hardwareAccelerated="false"
         android:largeHeap="true"
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BanglaNewspaper">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".TestingActivity"></activity>
+        <activity android:name=".TvNews"></activity>
+        <activity android:name=".Technology" />
+        <activity android:name=".Sports" />
+        <activity android:name=".Radio" />
+        <activity android:name=".NewsPortal" />
+        <activity android:name=".Jobs" />
+        <activity android:name=".International" />
+        <activity android:name=".Epaper" />
+        <activity android:name=".Entertainment" />
+        <activity android:name=".Business" />
+        <activity android:name=".English" />
+        <activity android:name=".Bangla" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TestingActivity" />
         <activity
             android:name=".Home"
             android:screenOrientation="portrait"
