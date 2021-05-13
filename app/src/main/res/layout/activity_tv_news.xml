@@ -75,6 +75,7 @@
         </androidx.appcompat.widget.Toolbar>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="ATN_NEWS"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -115,6 +116,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="BANGLA_VISION_NEWS"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -156,6 +158,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="CHANNEL_24"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -196,6 +199,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="CHANNEL_i"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -236,6 +240,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="EKUSHE_TV"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -276,6 +281,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="INDEPENDENT_NEWS"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -316,6 +322,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="JAMUNA_TV"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -356,6 +363,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="MAASRANGA_TV"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -396,6 +404,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="NTV_NEWS"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -436,6 +445,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="RTV_NEWS"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -476,6 +486,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="SOMOY_NEWS"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -516,6 +527,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="DBC_NEWS"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -556,6 +568,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="NEWS_24"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -596,6 +609,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="BOISHAKHI_TV"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -636,6 +650,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="SA_TV"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
