@@ -25,16 +25,24 @@
         <activity android:name=".Epaper" />
         <activity android:name=".Entertainment" />
         <activity android:name=".Business" />
+<<<<<<< HEAD
         <activity android:name=".English" >
+=======
+        <activity android:name=".English" />
+        <activity android:name=".Bangla" >
+>>>>>>> 9cae4f1f7fb74c899a8b1268c1b74cb32b1f0312
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".Bangla" >
 
         </activity>
+=======
+>>>>>>> 9cae4f1f7fb74c899a8b1268c1b74cb32b1f0312
         <activity android:name=".MainActivity" />
         <activity android:name=".TestingActivity" />
         <activity
