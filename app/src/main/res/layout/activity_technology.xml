@@ -80,6 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="BANGLA_TECH24"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -120,6 +121,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="BIZ_TECH24"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -161,6 +163,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="DAILY_ICT_NEWS"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -201,6 +204,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="TECH_ZOOM"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -241,6 +245,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="DIGIT"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -281,6 +286,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="TECH_GUP"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -321,6 +327,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="ASIANET_NEWS_TECH"
             app:neumorph_shapeType="basin">
 
             <ImageView
