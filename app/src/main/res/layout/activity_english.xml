@@ -61,7 +61,7 @@
                     android:layout_centerInParent="true"
                     android:gravity="center"
                     android:textStyle="bold"
-                    android:text="BANGLA"
+                    android:text="ENGLISH"
                     android:textSize="35sp"
                     android:textColor="@color/colorPrimary1"
                     app:neumorph_shadowColorDark="#710505"
@@ -116,6 +116,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="NEW_AGE"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -157,6 +158,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="THE_FINANCIAL_EXPRESS"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -197,6 +199,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="THE_BUSINESS_STANDARD"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -237,6 +240,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="DHAKA_TRIBUNE"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -277,6 +281,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="DAILY_SUN"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -317,6 +322,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="THE_INDEPENDENT"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -357,6 +363,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="THE_ASIAN_AGE"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -397,6 +404,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="THE_BANGLADESH_TODAY"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -437,6 +445,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="THE_DAILY_OBSERVER"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

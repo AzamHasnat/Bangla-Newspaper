@@ -25,19 +25,23 @@
         <activity android:name=".Epaper" />
         <activity android:name=".Entertainment" />
         <activity android:name=".Business" />
-        <activity android:name=".English" />
-        <activity android:name=".Bangla" />
+        <activity android:name=".English" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bangla" >
+
+        </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".TestingActivity" />
         <activity
             android:name=".Home"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
