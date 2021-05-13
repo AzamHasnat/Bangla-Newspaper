@@ -80,6 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="SPORTS_CANVASS"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -120,6 +121,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="PAVILION"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -161,6 +163,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="BD_SPORTS_NEWS"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -201,6 +204,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="TIGER_CRICKET"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -241,6 +245,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="DAILY_SPORTS_BD"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -281,6 +286,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="BD_NEWS_SPORTS"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -321,6 +327,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="UNB"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -361,6 +368,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="JAGO_NEWS"
             app:neumorph_shapeType="basin">
 
             <ImageView
