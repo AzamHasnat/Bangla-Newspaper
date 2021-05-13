@@ -80,6 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="ALOKITO_BANGLADESH"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -120,6 +121,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="BHORER_DAK"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -161,6 +163,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="BHORER_KAGAJ"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -201,6 +204,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="BANIK_BARTA"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -241,6 +245,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="BANGLADESH_PROTIDIN"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -281,6 +286,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="DAILY_JANAKANTHA"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -321,6 +327,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="AMADER_SOMOY"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -361,6 +368,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="DESH_RUPANTOR"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -401,6 +409,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="JUGANTOR"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -441,6 +450,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="KALER_KANTHO"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -481,6 +491,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="PROTHOM_ALO"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -521,6 +532,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="SAMAKAL"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -561,6 +573,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="JAI_JAI_DIN"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -601,6 +614,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="MANAB_KANTHO"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -641,6 +655,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="PROTIDINER_SANGBAD"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -681,6 +696,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="SOMOYER_ALO"
             app:neumorph_shapeType="basin">
 
             <ImageView
