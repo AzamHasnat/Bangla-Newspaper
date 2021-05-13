@@ -80,6 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="ANANDO_ALO"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -120,6 +121,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="BANGLA_STREET"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -161,6 +163,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="ANANDOLOK"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -201,6 +204,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="SANANDA"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -241,6 +245,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="KISHORE_ALO"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -281,6 +286,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="NISHORGO"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -321,6 +327,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="PROTHOL_ALO_BINODON"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -361,6 +368,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="ITTEFAQ_BINODON"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -401,6 +409,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="CANVAS"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -441,6 +450,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="KISHORE_BANGLA"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -481,6 +491,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="PARJATAN_BICHITRA"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -521,6 +532,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="rupali_alo"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -545,7 +557,7 @@
                     style="@style/Widget.Neumorph.TextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="DHAKA TRIBUNE"
+                    android:text="Rupali Alo"
                     android:textColor="@color/colorPrimary1"
                     android:textSize="22sp"
                     android:textStyle="bold"
@@ -561,6 +573,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="ABASAR"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -601,6 +614,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="OBAK_PRITHIBI"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -635,13 +649,13 @@
 
         </soup.neumorphism.NeumorphCardView>
 
-
         <soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="ANANDA_BAZAR_TRAVEL"
             app:neumorph_shapeType="basin">
 
             <ImageView
@@ -682,6 +696,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:onClick="ANANYA"
             app:neumorph_shapeType="basin">
 
             <ImageView
