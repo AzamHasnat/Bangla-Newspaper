@@ -75,6 +75,7 @@
         </androidx.appcompat.widget.Toolbar>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="daily_star"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
