@@ -774,6 +774,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="BD_TIMES_365"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -814,6 +815,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="BD_TODAY_24"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -854,6 +856,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="BD_TYPE"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -894,6 +897,7 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
+            android:onClick="BD_NEWS_24"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

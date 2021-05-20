@@ -63,4 +63,16 @@ public class NewsPortal extends AppCompatActivity {
 
     public void BD_24_LIVE(View view) {
     }
+
+    public void BD_TIMES_365(View view) {
+    }
+
+    public void BD_TODAY_24(View view) {
+    }
+
+    public void BD_TYPE(View view) {
+    }
+
+    public void BD_NEWS_24(View view) {
+    }
 }
