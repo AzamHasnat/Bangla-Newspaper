@@ -75,4 +75,16 @@ public class NewsPortal extends AppCompatActivity {
 
     public void BD_NEWS_24(View view) {
     }
+
+    public void BREAKING_NEWS(View view) {
+    }
+
+    public void BSS_NEWS(View view) {
+    }
+
+    public void CHASHI_SHEBA(View view) {
+    }
+
+    public void DAILY_BANGLADESH(View view) {
+    }
 }
