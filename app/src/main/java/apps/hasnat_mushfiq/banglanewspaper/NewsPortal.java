@@ -87,4 +87,22 @@ public class NewsPortal extends AppCompatActivity {
 
     public void DAILY_BANGLADESH(View view) {
     }
+
+    public void DHAKA_TIMES_24(View view) {
+    }
+
+    public void DMP_NEWS(View view) {
+    }
+
+    public void FNS_24(View view) {
+    }
+
+    public void FAST_NEWS_BD(View view) {
+    }
+
+    public void GO_NEWS_24(View view) {
+    }
+
+    public void HAWKER(View view) {
+    }
 }
