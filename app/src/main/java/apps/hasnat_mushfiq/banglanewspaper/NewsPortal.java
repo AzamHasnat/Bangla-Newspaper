@@ -105,4 +105,25 @@ public class NewsPortal extends AppCompatActivity {
 
     public void HAWKER(View view) {
     }
+
+    public void DHAKA_NEWS_24(View view) {
+    }
+
+    public void JAGO_NEWS_24(View view) {
+    }
+
+    public void KACHER_DEYAL(View view) {
+    }
+
+    public void LAKHO_KANTHO(View view) {
+    }
+
+    public void LIVE_PRESS_24(View view) {
+    }
+
+    public void NAGORIK_BARTA(View view) {
+    }
+
+    public void NATUN_BARTA(View view) {
+    }
 }
