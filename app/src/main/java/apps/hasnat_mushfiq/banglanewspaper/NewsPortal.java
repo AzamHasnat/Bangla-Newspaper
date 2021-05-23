@@ -150,4 +150,19 @@ public class NewsPortal extends AppCompatActivity {
 
     public void SAHOS_24(View view) {
     }
+
+    public void SAMAKAL_NEWS_24(View view) {
+    }
+
+    public void SARA_BANGLA(View view) {
+    }
+
+    public void SHERSHA_NEWS_24(View view) {
+    }
+
+    public void SOMOYER_KONTHOSOR(View view) {
+    }
+
+    public void THE_REPORT_24(View view) {
+    }
 }
