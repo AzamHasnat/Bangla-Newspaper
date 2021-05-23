@@ -126,4 +126,28 @@ public class NewsPortal extends AppCompatActivity {
 
     public void NATUN_BARTA(View view) {
     }
+
+    public void NEWS_BANGLADESH(View view) {
+    }
+
+    public void NIRAPAD_NEWS(View view) {
+    }
+
+    public void NOTUN_KHOBOR(View view) {
+    }
+
+    public void ODHIKAR_NEWS(View view) {
+    }
+
+    public void PRIME_NEWS_BD(View view) {
+    }
+
+    public void RISING_BD(View view) {
+    }
+
+    public void RTNN(View view) {
+    }
+
+    public void SAHOS_24(View view) {
+    }
 }
