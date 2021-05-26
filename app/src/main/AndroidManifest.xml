@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BanglaNewspaper">
-        <activity android:name=".TvNews"></activity>
+        <activity android:name=".home_new"></activity>
+        <activity android:name=".TvNews" />
         <activity android:name=".Technology" />
         <activity android:name=".Sports" />
         <activity android:name=".Radio" />
@@ -27,24 +28,18 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>>
+        </activity>
         <activity android:name=".Epaper" />
         <activity android:name=".Entertainment" />
         <activity android:name=".Business" />
-        <activity android:name=".English" >
-
-        </activity>
-        <activity android:name=".Bangla" >
-
-        </activity>
+        <activity android:name=".English" />
+        <activity android:name=".Bangla" />
         <activity android:name=".MainActivity" />
         <activity android:name=".TestingActivity" />
         <activity
             android:name=".Home"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
-
-        </activity>
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
     </application>
 
 </manifest>
