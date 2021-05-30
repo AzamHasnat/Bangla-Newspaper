@@ -1,0 +1,1872 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    tools:context=".Int_Bangla">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            app:contentInsetStart="0dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary1"
+            android:elevation="0dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageButton
+                    android:id="@+id/ibtnBack"
+                    android:layout_width="@dimen/thirty_dp"
+                    android:layout_height="@dimen/thirty_dp"
+                    android:layout_alignParentStart="true"
+                    android:tint="@color/black"
+                    android:layout_centerInParent="true"
+                    android:background="@android:color/transparent"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:padding="@dimen/five_dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_back_btn_selector_white"
+                    android:visibility="gone"
+                    android:contentDescription="Image" />
+
+                <!-- <TextView
+                     android:id="@+id/personal_accounting"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_centerInParent="true"
+                     android:text="Newspaper"
+                     android:textStyle="bold"
+                     android:textColor="@android:color/white"
+                     android:textSize="@dimen/eighteen_sp" />-->
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="BANGLA"
+                    android:textSize="35sp"
+                    android:textColor="@color/colorPrimary1"
+                    app:neumorph_shadowColorDark="#FF8A65"
+                    app:neumorph_shadowColorLight="#170101"
+                    app:neumorph_shadowElevation="@dimen/cardview_compat_inset_shadow"
+                    />
+
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="prothomalo"
+            app:neumorph_shapeType="basin">
+
+            <LinearLayout
+                android:id="@+id/prothomalo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+
+                    >
+
+                    <soup.neumorphism.NeumorphTextView
+                        style="@style/Widget.Neumorph.TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UK Bd News"
+                        android:textColor="@color/colorPrimary1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+
+                        app:neumorph_shadowColorDark="#1C0505" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/"
+                    android:scaleType="fitCenter"/>
+
+
+
+            </LinearLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="kalerkontho_bangla"
+            app:neumorph_shapeType="basin">
+
+            <LinearLayout
+                android:id="@+id/kalerkontho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+
+                    >
+
+                    <soup.neumorphism.NeumorphTextView
+                        style="@style/Widget.Neumorph.TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DAILY KALER KANTHO"
+                        android:textColor="@color/colorPrimary1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+
+                        app:neumorph_shadowColorDark="#1C0505" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="220dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/kkantho"
+                    android:scaleType="fitCenter"/>
+
+            </LinearLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="ittefaq_bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ittefaq" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAILY ITTEFAQ"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="noyadigonto_bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/noyadiganta"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAILY NOYA DIGANTA"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="bdprotidin_bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/banprotidin"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="BANGLADESH PRATIDIN"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505"
+                    />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="jugantor_bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/jugantor"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JUGANTOR"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="amarshongbad_bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/amarsangbad"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAILY AMAR SANGBAD"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="protidiner_shongbad_bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/protidinersangbad"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PROTIDINER SANGBAD"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="shongram_bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sangram"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAILY SANGRAM"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="manob_jomin_bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mjamin"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAILY MANAB ZAMIN"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="amader_somoy_bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/asomoy"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAINIK AMADERSHOMOY"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="samakal_bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/samakal"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SAMAKAL"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="janakantha_bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/janakantha"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JANAKANTHA"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="jayjaydin_bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/jaijaidin"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JAI JAI DIN"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="vorerkagaj_bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/vorerkagaj"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAILY BHORER KAGOJ"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="ARTHONITEER_KAGOJ"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/artkagaj"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ARTHONITEER KAGOJ"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="INQILAB"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/inq"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAILY INQILAB"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="SANGBAD"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sangbad"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SANGBAD"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="MANOB_KANTHA"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mabnabkantha"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MANOB KANTHA"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="SUPROVAT"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/suprovat"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAILY SUPROVAT"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="BONKI_BARTA"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/banikbarta"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BONKI BARTA"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="Daily_DINKAL"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/dinkal"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAILY DINKAL"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="ALOKITO_BANGLADESH"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/alokitobd"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ALOKITO BANGLADESH"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="AJKER_BAZAR"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ajkerbazar"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AJKER BAZAR"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="AMADER_AURTHONEETI"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/amaderaur"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AMADER AURTHONEETI"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="BANGLADESH_POST"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/bangladeshpost"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BANGLADESH POST"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="SOREJOMIN_BARTA"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sorejomin"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SOREJOMIN BARTA"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="AJKER_PATRIKA"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ajkerpatrika"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AJKER PATRIKA"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="KHABAR_PATRA"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/khabarpatra"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KHABAR PATRA"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="VORER_PATA"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/vorerpata"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VORER PATA"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="SHOMOYER_ALO"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/somoyeralo"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SHOMOYER ALO"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="DHAKAR_DAK"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/dhakardak"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DHAKAR DAK"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="NOTUN_BARTA"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/niotunbarta"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NOTUN BARTA"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="SHARE_BIZ"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sharebiz"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SHARE BIZ"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="DAILY_BARTOMAN"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/dailybartaman"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAILY BARTOMAN"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="AJKALER_KHOBOR"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ajkalerkhobor"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AJKALER KHOBOR"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="SANGBAD_KONIKA"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sangbadkanika"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SANGBAD KONIKA"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="SOMOYER_KANTHA"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/somoyerkantha"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SOMOYER KANTHA"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="KHOLA_KAGOJ"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/kholakagoj"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KHOLA KAGOJ"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="DESH_RUPANTOR"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/deshrupantor"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DESH RUPANTOR"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="BANGLADESHER_KHABOR"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/bangladesherkhobor"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BANGLADESHER KHABOR"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="AMAR_DESH"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/amardesh"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AMAR DESH"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="DAILY_JAGRAN"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/jagaran"
+                android:scaleType="fitCenter"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+
+                >
+
+                <soup.neumorphism.NeumorphTextView
+                    style="@style/Widget.Neumorph.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAILY JAGRAN"
+                    android:textColor="@color/colorPrimary1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+
+                    app:neumorph_shadowColorDark="#1C0505" />
+            </RelativeLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+    </LinearLayout>
+</ScrollView>

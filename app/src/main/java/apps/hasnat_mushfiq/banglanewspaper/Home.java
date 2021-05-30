@@ -80,7 +80,6 @@ public class Home extends AppCompatActivity implements BanglaFragment.OnFragment
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
-
         viewPager = findViewById(R.id.viewPager);
         final ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
         viewPager.setAdapter(adapter);

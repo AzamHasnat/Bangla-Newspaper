@@ -15,7 +15,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BanglaNewspaper">
-        <activity android:name=".home_new"></activity>
+        <activity android:name=".Int_Bangla"></activity>
+        <activity android:name=".InternationalBangla" />
+        <activity android:name=".home_new" />
         <activity android:name=".TvNews" />
         <activity android:name=".Technology" />
         <activity android:name=".Sports" />
