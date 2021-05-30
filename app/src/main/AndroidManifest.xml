@@ -15,9 +15,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BanglaNewspaper">
+<<<<<<< HEAD
         <activity android:name=".Int_Bangla"></activity>
         <activity android:name=".InternationalBangla" />
         <activity android:name=".home_new" />
+=======
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4998576540264970~9762622335"/>
+
+
+        <activity android:name=".home_new">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+>>>>>>> f58575c02f87ca5394c0cbfcb30810f4bb4a2664
         <activity android:name=".TvNews" />
         <activity android:name=".Technology" />
         <activity android:name=".Sports" />
@@ -25,11 +41,7 @@
         <activity android:name=".NewsPortal" />
         <activity android:name=".Jobs" />
         <activity android:name=".International">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Epaper" />
         <activity android:name=".Entertainment" />

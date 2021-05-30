@@ -84,6 +84,7 @@
             <soup.neumorphism.NeumorphCardView
                 style="@style/Widget.Neumorph.CardView"
                 android:layout_width="match_parent"
+                android:onClick="_bangla"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
@@ -532,7 +533,19 @@
 
         </LinearLayout>
 
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111">
 
+        </com.google.android.gms.ads.AdView>
 
 
     </LinearLayout>
