@@ -15,11 +15,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BanglaNewspaper">
-<<<<<<< HEAD
-        <activity android:name=".Int_Bangla"></activity>
-        <activity android:name=".InternationalBangla" />
-        <activity android:name=".home_new" />
-=======
 
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
@@ -33,7 +28,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
->>>>>>> f58575c02f87ca5394c0cbfcb30810f4bb4a2664
         <activity android:name=".TvNews" />
         <activity android:name=".Technology" />
         <activity android:name=".Sports" />
@@ -54,6 +48,9 @@
             android:name=".Home"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+
+        <activity android:name=".Int_Bangla"></activity>
     </application>
+
 
 </manifest>
