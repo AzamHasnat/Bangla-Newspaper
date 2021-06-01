@@ -61,12 +61,10 @@
                     android:layout_centerInParent="true"
                     android:gravity="center"
                     android:textStyle="bold"
-                    android:text="Newspaper"
+                    android:text="All Newspaper"
                     android:textSize="35sp"
                     android:textColor="@color/colorPrimary1"
-                    app:neumorph_shadowColorDark="#E30A0A"
-                    app:neumorph_shadowColorLight="#710505"
-                    app:neumorph_shadowElevation="@dimen/cardview_compat_inset_shadow"
+                    app:neumorph_shadowColorDark="@android:color/darker_gray"
                     />
 
 
