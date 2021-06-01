@@ -156,7 +156,7 @@ public class Bangla extends AppCompatActivity {
             public void onAdClosed() {
                 super.onAdClosed();
                 Intent intent = new Intent(Bangla.this, MainActivity.class);
-                intent.putExtra("url",":https://www.bd-pratidin.com/");
+                intent.putExtra("url","https://www.bd-pratidin.com/");
                 intent.putExtra("name","Bangladesh Pratidin");
                 startActivity(intent);
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
