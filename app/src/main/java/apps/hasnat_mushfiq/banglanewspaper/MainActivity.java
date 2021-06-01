@@ -13,12 +13,18 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 public class MainActivity extends AppCompatActivity {
 
     WebView webView;
     String url = "";
     String names = "";
     TextView name;
+
+    AdView adView;
 
 
     @SuppressLint("SetJavaScriptEnabled")
@@ -34,6 +40,12 @@ public class MainActivity extends AppCompatActivity {
 
         url = getIntent().getStringExtra("url");
         names = getIntent().getStringExtra("name");
+
+        adView = findViewById(R.id.adView);
+
+        MobileAds.initialize(this);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
         webView = findViewById(R.id.webview);
         name = findViewById(R.id.name);

@@ -23,6 +23,15 @@
             android:layout_height="match_parent"
             >
 
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-3940256099942544/6300978111">
+
+            </com.google.android.gms.ads.AdView>
+
             <ImageButton
                 android:id="@+id/ibtnBack"
                 android:layout_width="@dimen/thirty_dp"
@@ -49,6 +58,7 @@
                  android:textSize="@dimen/eighteen_sp" />-->
 
             <soup.neumorphism.NeumorphTextView
+                android:visibility="gone"
                 android:id="@+id/name"
                 style="@style/Widget.Neumorph.TextView"
                 android:layout_width="wrap_content"

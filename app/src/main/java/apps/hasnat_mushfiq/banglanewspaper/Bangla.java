@@ -1,32 +1,104 @@
 package apps.hasnat_mushfiq.banglanewspaper;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+
 public class Bangla extends AppCompatActivity {
+
+    private InterstitialAd mInterstitialAd;
+    AdView adView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bangla);
+
+        mInterstitialAd =new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
+      /*  mInterstitialAd =new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+        mInterstitialAd.show();
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }*/
+
+        adView = findViewById(R.id.adView);
+
+        MobileAds.initialize(this);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
+
     }
 
     public void prothomalo(View view) {
 
-        Intent intent = new Intent(this, MainActivity.class);
+        /*Intent intent = new Intent(this, MainActivity.class);
         intent.putExtra("url","https://www.prothomalo.com/");
         intent.putExtra("name","Prothom Alo");
-        startActivity(intent);
+        startActivity(intent);*/
+
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Bangla.this, MainActivity.class);
+                intent.putExtra("url","https://www.prothomalo.com/");
+                intent.putExtra("name","Prothom Alo");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
     }
 
     public void kalerkontho_bangla(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
+       /* Intent intent = new Intent(this, MainActivity.class);
         intent.putExtra("url","https://www.kalerkantho.com/");
         intent.putExtra("name","Kaler Kantho");
-        startActivity(intent);
+        startActivity(intent);*/
+
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Bangla.this, MainActivity.class);
+                intent.putExtra("url","https://www.kalerkantho.com/");
+                intent.putExtra("name","Kaler Kantho");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
     }
 
     public void ittefaq_bangla(View view) {
