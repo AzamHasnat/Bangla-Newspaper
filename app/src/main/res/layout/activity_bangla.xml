@@ -69,13 +69,10 @@
 
         </androidx.appcompat.widget.Toolbar>
 
-        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:layout_width="match_parent"
+        <ScrollView android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@+id/my_toolbar"
             android:orientation="vertical"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:background="@android:color/white"
 
             >
@@ -1885,6 +1882,7 @@
 
             </LinearLayout>
         </ScrollView>
+
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="match_parent"

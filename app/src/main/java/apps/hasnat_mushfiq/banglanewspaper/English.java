@@ -4,21 +4,55 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
+
 public class English extends AppCompatActivity {
+
+    private InterstitialAd mInterstitialAd;
+    AdView adView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_english);
+
+        mInterstitialAd =new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
+        adView = findViewById(R.id.adView);
+
+        MobileAds.initialize(this);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
     }
 
     public void daily_star(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","https://www.thedailystar.net/");
-        intent.putExtra("name","The Daily Star");
-        startActivity(intent);
+
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(English.this, MainActivity.class);
+                intent.putExtra("url","https://www.thedailystar.net/");
+                intent.putExtra("name","The Daily Star");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
     }
 
     public void NEW_AGE(View view) {
