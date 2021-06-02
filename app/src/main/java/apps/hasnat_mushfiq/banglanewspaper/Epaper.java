@@ -17,10 +17,17 @@ public class Epaper extends AppCompatActivity {
     private InterstitialAd mInterstitialAd;
     AdView adView;
 
+    private InterstitialAd mInterstitialAd;
+    AdView adView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_epaper);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 477e9af21e62deb9fd7f759bb3de7865f417438f
         mInterstitialAd =new InterstitialAd(this);
         mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
@@ -30,10 +37,19 @@ public class Epaper extends AppCompatActivity {
         MobileAds.initialize(this);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 477e9af21e62deb9fd7f759bb3de7865f417438f
     }
 
     public void ALOKITO_BANGLADESH(View view) {
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 477e9af21e62deb9fd7f759bb3de7865f417438f
         if (mInterstitialAd != null) {
             mInterstitialAd.show();
         } else {
@@ -51,7 +67,10 @@ public class Epaper extends AppCompatActivity {
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
+<<<<<<< HEAD
 
+=======
+>>>>>>> 477e9af21e62deb9fd7f759bb3de7865f417438f
     }
 
     public void BHORER_DAK(View view) {
