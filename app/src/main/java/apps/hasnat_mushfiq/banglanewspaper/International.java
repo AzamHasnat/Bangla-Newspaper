@@ -36,6 +36,10 @@ public class International extends AppCompatActivity {
 
     public void THE_GUARDIAN(View view) {
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 344f0998b399f0332394fc7cb7c99fa9de3c3082
         if (mInterstitialAd != null) {
             mInterstitialAd.show();
         } else {
@@ -53,7 +57,10 @@ public class International extends AppCompatActivity {
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
+<<<<<<< HEAD
 
+=======
+>>>>>>> 344f0998b399f0332394fc7cb7c99fa9de3c3082
     }
 
     public void THE_WALL_STREET_JOURNAL(View view) {
