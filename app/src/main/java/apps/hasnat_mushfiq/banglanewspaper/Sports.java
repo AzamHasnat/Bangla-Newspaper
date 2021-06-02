@@ -57,10 +57,24 @@ public class Sports extends AppCompatActivity {
     }
 
     public void PAVILION(View view) {
-    Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","https://pavilion.com.bd/bn");
-        intent.putExtra("name","PAVILION");
-        startActivity(intent);
+
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Sports.this, MainActivity.class);
+                intent.putExtra("url","https://pavilion.com.bd/bn");
+                intent.putExtra("name","PAVILION");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
     }
 
     public void BD_SPORTS_NEWS(View view) {
