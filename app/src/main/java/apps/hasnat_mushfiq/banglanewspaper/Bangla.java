@@ -32,16 +32,6 @@ public class Bangla extends AppCompatActivity {
         mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
-      /*  mInterstitialAd =new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-        mInterstitialAd.show();
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }*/
-
         adView = findViewById(R.id.adView);
 
         MobileAds.initialize(this);
