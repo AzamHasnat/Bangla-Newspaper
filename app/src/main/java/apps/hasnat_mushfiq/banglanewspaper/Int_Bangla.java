@@ -47,6 +47,487 @@ public class Int_Bangla extends AppCompatActivity {
             public void onAdClosed() {
                 super.onAdClosed();
                 Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","http://ukbdnews.com/");
+                intent.putExtra("name","UK Bd News");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+    }
+
+    public void BengaliTimes(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void Vao_Bangla(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void bdprotidin_bangla(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void China_Radio_Bangla(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void Ananabazar_Patrika(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void Zee_24_Ghonta(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void Sangbad_Protidin(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void Bartaman_Patrika(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void kolkata24x7(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void abpananda(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void Sananda(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void AAjkal_net(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void ARTHONITEER_KAGOJ(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void eisamay(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void Ganashakti(View view) { if (mInterstitialAd != null) {
+        mInterstitialAd.show();
+    } else {
+        Log.d("TAGs", "The interstitial wasn't loaded yet.");
+    }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void suprovat(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void anandalok(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void Asomiya_Pratidin(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void dainiksambad(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void amarshongbad_bangla(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void UN_Bangla_Radio(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void ALOKITO_BANGLADESH(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+    }
+
+    public void Bangla_Times(View view) {
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
                 intent.putExtra("url","");
                 intent.putExtra("name","");
                 startActivity(intent);
@@ -55,284 +536,358 @@ public class Int_Bangla extends AppCompatActivity {
         });
     }
 
-    public void BengaliTimes(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void Vao_Bangla(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void bdprotidin_bangla(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void China_Radio_Bangla(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void Ananabazar_Patrika(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void Zee_24_Ghonta(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void Sangbad_Protidin(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void Bartaman_Patrika(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void kolkata24x7(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void abpananda(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void Sananda(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void AAjkal_net(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void ARTHONITEER_KAGOJ(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void eisamay(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void Ganashakti(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void suprovat(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void anandalok(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void Asomiya_Pratidin(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void dainiksambad(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void amarshongbad_bangla(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void UN_Bangla_Radio(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void ALOKITO_BANGLADESH(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
-    public void Bangla_Times(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
-    }
-
     public void Surma_News(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void BANGLADESH_POST(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void UK_Bengali(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void Weekly_Bangladesh(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
     }
 
     public void Deshebideshe(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void deshebideshe(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void KHABAR_PATRA(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void gssnews(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void londonbanglanews(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
     }
 
     public void oneindia(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void weeklybangalee(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
     }
 
     public void thikana(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void Parichoy(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void parstoday(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void Weekly_Janomot(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void BBC_Bangla(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void NHK_World(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","");
-        startActivity(intent);
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Int_Bangla.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 }
 

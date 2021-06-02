@@ -90,4 +90,9 @@ public class home_new extends AppCompatActivity {
         Intent intent = new Intent(home_new.this,Technology.class);
         startActivity(intent);
     }
+
+    public void international(View view) {
+        Intent intent = new Intent(home_new.this,International.class);
+        startActivity(intent);
+    }
 }

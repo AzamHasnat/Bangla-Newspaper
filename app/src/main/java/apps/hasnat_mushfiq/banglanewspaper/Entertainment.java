@@ -69,7 +69,7 @@ public class Entertainment extends AppCompatActivity {
             public void onAdClosed() {
                 super.onAdClosed();
                 Intent intent = new Intent(Entertainment.this, MainActivity.class);
-                intent.putExtra("url","http://banglastreet.org/");
+                intent.putExtra("url","https://banglastreet.online/");
                 intent.putExtra("name","Bangla Street");
                 startActivity(intent);
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
