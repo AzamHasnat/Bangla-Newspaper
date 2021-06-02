@@ -4,21 +4,56 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
+
 public class International extends AppCompatActivity {
+
+    private InterstitialAd mInterstitialAd;
+    AdView adView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_international);
+
+        mInterstitialAd =new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
+        adView = findViewById(R.id.adView);
+
+        MobileAds.initialize(this);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
     }
 
     public void THE_GUARDIAN(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","THE GUARDIAN (UK): https://www.theguardian.com/uk");
-        intent.putExtra("name","THE GUARDIAN (UK)");
-        startActivity(intent);
+
+
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(International.this, MainActivity.class);
+                intent.putExtra("url","https://www.theguardian.com/uk");
+                intent.putExtra("name","THE GUARDIAN (UK)");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
     }
 
     public void THE_WALL_STREET_JOURNAL(View view) {
