@@ -78,44 +78,138 @@ public class Sports extends AppCompatActivity {
     }
 
     public void BD_SPORTS_NEWS(View view) {
-    Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","http://bdsportsnews.com/");
-        intent.putExtra("name","BD SPORTS NEWS");
-        startActivity(intent);
+
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Sports.this, MainActivity.class);
+                intent.putExtra("url","http://bdsportsnews.com/");
+                intent.putExtra("name","BD SPORTS NEWS");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void TIGER_CRICKET(View view) {
-    Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","");
-        intent.putExtra("name","TIGER CRICKET");
-        startActivity(intent);
+
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Sports.this, MainActivity.class);
+                intent.putExtra("url","");
+                intent.putExtra("name","TIGER CRICKET");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
     }
 
     public void DAILY_SPORTS_BD(View view) {
-    Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","https://sportsbangla.com/");
-        intent.putExtra("name","DAILY SPORTS BD");
-        startActivity(intent);
+
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Sports.this, MainActivity.class);
+                intent.putExtra("url","https://sportsbangla.com/");
+                intent.putExtra("name","DAILY SPORTS BD");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+
     }
 
     public void BD_NEWS_SPORTS(View view) {
-    Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","https://bdnews24.com/sport/");
-        intent.putExtra("name","BD NEWS SPORTS");
-        startActivity(intent);
+
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Sports.this, MainActivity.class);
+                intent.putExtra("url","https://bdnews24.com/sport/");
+                intent.putExtra("name","BD NEWS SPORTS");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+
     }
 
     public void UNB(View view) {
-    Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","https://unb.com.bd/category/17/Sports");
-        intent.putExtra("name","UNB");
-        startActivity(intent);
+
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Sports.this, MainActivity.class);
+                intent.putExtra("url","https://unb.com.bd/category/17/Sports");
+                intent.putExtra("name","UNB");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+
     }
 
     public void JAGO_NEWS(View view) {
-    Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","https://www.jagonews24.com/sports");
-        intent.putExtra("name","JAGO_NEWS");
-        startActivity(intent);
+
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show();
+        } else {
+            Log.d("TAGs", "The interstitial wasn't loaded yet.");
+        }
+
+        mInterstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                Intent intent = new Intent(Sports.this, MainActivity.class);
+                intent.putExtra("url","https://www.jagonews24.com/sports");
+                intent.putExtra("name","JAGO_NEWS");
+                startActivity(intent);
+                mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+        });
+
+
     }
 }
