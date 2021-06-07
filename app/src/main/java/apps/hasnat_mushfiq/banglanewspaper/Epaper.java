@@ -322,7 +322,7 @@ public class Epaper extends AppCompatActivity {
             public void onAdClosed() {
                 super.onAdClosed();
                 Intent intent = new Intent(Epaper.this, MainActivity.class);
-                intent.putExtra("url","https://ejjdin.com/");
+                intent.putExtra("url","https://epaper.manobkantha.com.bd/2021/06/07/");
                 intent.putExtra("name","MANAB KANTHO");
                 startActivity(intent);
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
