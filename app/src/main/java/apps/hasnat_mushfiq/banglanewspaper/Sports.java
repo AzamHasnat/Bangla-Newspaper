@@ -112,7 +112,7 @@ public class Sports extends AppCompatActivity {
             public void onAdClosed() {
                 super.onAdClosed();
                 Intent intent = new Intent(Sports.this, MainActivity.class);
-                intent.putExtra("url","");
+                intent.putExtra("url","http://www.tigercricket.com.bd/");
                 intent.putExtra("name","TIGER CRICKET");
                 startActivity(intent);
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());

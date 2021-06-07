@@ -795,7 +795,7 @@
                 android:layout_height="70dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="35dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:scaleType="fitCenter"
@@ -998,7 +998,7 @@
             <ImageView
                 android:layout_width="220dp"
                 android:layout_height="70dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="35dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
