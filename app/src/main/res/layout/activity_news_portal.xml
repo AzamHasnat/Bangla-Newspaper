@@ -658,47 +658,6 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
-            android:onClick="BARTA_BANGLA"
-            style="@style/Widget.Neumorph.CardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            app:neumorph_shapeType="basin">
-
-            <ImageView
-                android:layout_width="220dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
-                android:src="@drawable/bartabangla"
-                android:scaleType="fitCenter"/>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-
-                >
-
-                <soup.neumorphism.NeumorphTextView
-                    style="@style/Widget.Neumorph.TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="BARTA BANGLA"
-                    android:textColor="@color/colorPrimary1"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-
-                    app:neumorph_shadowColorDark="#1C0505" />
-            </RelativeLayout>
-
-        </soup.neumorphism.NeumorphCardView>
-
-        <soup.neumorphism.NeumorphCardView
             android:onClick="BARTA_KONTHO"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
@@ -777,47 +736,6 @@
 
                     app:neumorph_shadowColorDark="#1C0505"
                     />
-            </RelativeLayout>
-
-        </soup.neumorphism.NeumorphCardView>
-
-        <soup.neumorphism.NeumorphCardView
-            android:onClick="BD_TIMES_365"
-            style="@style/Widget.Neumorph.CardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            app:neumorph_shapeType="basin">
-
-            <ImageView
-                android:layout_width="220dp"
-                android:layout_height="70dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="15dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/bdtimes365" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-
-                >
-
-                <soup.neumorphism.NeumorphTextView
-                    style="@style/Widget.Neumorph.TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="BD TIMES 365"
-                    android:textColor="@color/colorPrimary1"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-
-                    app:neumorph_shadowColorDark="#1C0505" />
             </RelativeLayout>
 
         </soup.neumorphism.NeumorphCardView>
@@ -987,47 +905,6 @@
         </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
-            android:onClick="BSS_NEWS"
-            style="@style/Widget.Neumorph.CardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            app:neumorph_shapeType="basin">
-
-            <ImageView
-                android:layout_width="220dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
-                android:src="@drawable/bssnews"
-                android:scaleType="fitCenter"/>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-
-                >
-
-                <soup.neumorphism.NeumorphTextView
-                    style="@style/Widget.Neumorph.TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="BSS NEWS"
-                    android:textColor="@color/colorPrimary1"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-
-                    app:neumorph_shadowColorDark="#1C0505" />
-            </RelativeLayout>
-
-        </soup.neumorphism.NeumorphCardView>
-
-        <soup.neumorphism.NeumorphCardView
             android:onClick="CHASHI_SHEBA"
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
@@ -1068,46 +945,7 @@
 
         </soup.neumorphism.NeumorphCardView>
 
-        <soup.neumorphism.NeumorphCardView
-            android:onClick="DAILY_BANGLADESH"
-            style="@style/Widget.Neumorph.CardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            app:neumorph_shapeType="basin">
 
-            <ImageView
-                android:layout_width="220dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
-                android:src="@drawable/dailybangladesh"
-                android:scaleType="fitCenter"/>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-
-                >
-
-                <soup.neumorphism.NeumorphTextView
-                    style="@style/Widget.Neumorph.TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="DAILY BANGLADESH"
-                    android:textColor="@color/colorPrimary1"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-
-                    app:neumorph_shadowColorDark="#1C0505" />
-            </RelativeLayout>
-
-        </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
             android:onClick="DHAKA_NEWS_24"
@@ -1191,87 +1029,7 @@
 
         </soup.neumorphism.NeumorphCardView>
 
-        <soup.neumorphism.NeumorphCardView
-            android:onClick="DMP_NEWS"
-            style="@style/Widget.Neumorph.CardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            app:neumorph_shapeType="basin">
 
-            <ImageView
-                android:layout_width="220dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
-                android:src="@drawable/dmpnews"
-                android:scaleType="fitCenter"/>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-
-                >
-
-                <soup.neumorphism.NeumorphTextView
-                    style="@style/Widget.Neumorph.TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="DMP NEWS"
-                    android:textColor="@color/colorPrimary1"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-
-                    app:neumorph_shadowColorDark="#1C0505" />
-            </RelativeLayout>
-
-        </soup.neumorphism.NeumorphCardView>
-
-        <soup.neumorphism.NeumorphCardView
-            android:onClick="FNS_24"
-            style="@style/Widget.Neumorph.CardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="35dp"
-            app:neumorph_shapeType="basin">
-
-            <ImageView
-                android:layout_width="220dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
-                android:src="@drawable/fns24"
-                android:scaleType="fitCenter"/>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-
-                >
-
-                <soup.neumorphism.NeumorphTextView
-                    style="@style/Widget.Neumorph.TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="FNS 24"
-                    android:textColor="@color/colorPrimary1"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-
-                    app:neumorph_shadowColorDark="#1C0505" />
-            </RelativeLayout>
-
-        </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
             android:onClick="FAST_NEWS_BD"
@@ -1438,87 +1196,8 @@
 
         </soup.neumorphism.NeumorphCardView>
 
-        <soup.neumorphism.NeumorphCardView
-            android:onClick="KACHER_DEYAL"
-            style="@style/Widget.Neumorph.CardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            app:neumorph_shapeType="basin">
 
-            <ImageView
-                android:layout_width="220dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
-                android:src="@drawable/kacherdeyal"
-                android:scaleType="fitCenter"/>
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-
-                >
-
-                <soup.neumorphism.NeumorphTextView
-                    style="@style/Widget.Neumorph.TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="KACHER DEYAL"
-                    android:textColor="@color/colorPrimary1"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-
-                    app:neumorph_shadowColorDark="#1C0505" />
-            </RelativeLayout>
-
-        </soup.neumorphism.NeumorphCardView>
-
-        <soup.neumorphism.NeumorphCardView
-            android:onClick="LAKHO_KANTHO"
-            style="@style/Widget.Neumorph.CardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            app:neumorph_shapeType="basin">
-
-            <ImageView
-                android:layout_width="250dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
-                android:src="@drawable/lakhokantho"
-                android:scaleType="fitCenter"/>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-
-                >
-
-                <soup.neumorphism.NeumorphTextView
-                    style="@style/Widget.Neumorph.TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="LAKHO KANTHO"
-                    android:textColor="@color/colorPrimary1"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-
-                    app:neumorph_shadowColorDark="#1C0505" />
-            </RelativeLayout>
-
-        </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
             android:onClick="LIVE_PRESS_24"
@@ -1684,128 +1363,6 @@
 
         </soup.neumorphism.NeumorphCardView>
 
-        <soup.neumorphism.NeumorphCardView
-            android:onClick="NIRAPAD_NEWS"
-            style="@style/Widget.Neumorph.CardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            app:neumorph_shapeType="basin">
-
-            <ImageView
-                android:layout_width="220dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
-                android:src="@drawable/nirapadnews"
-                android:scaleType="fitCenter"/>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-
-                >
-
-                <soup.neumorphism.NeumorphTextView
-                    style="@style/Widget.Neumorph.TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="NIRAPAD NEWS"
-                    android:textColor="@color/colorPrimary1"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-
-                    app:neumorph_shadowColorDark="#1C0505" />
-            </RelativeLayout>
-
-        </soup.neumorphism.NeumorphCardView>
-
-        <soup.neumorphism.NeumorphCardView
-            android:onClick="NOTUN_KHOBOR"
-            style="@style/Widget.Neumorph.CardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            app:neumorph_shapeType="basin">
-
-            <ImageView
-                android:layout_width="220dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
-                android:src="@drawable/notunkhobor"
-                android:scaleType="fitCenter"/>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-
-                >
-
-                <soup.neumorphism.NeumorphTextView
-                    style="@style/Widget.Neumorph.TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="NOTUN KHOBOR"
-                    android:textColor="@color/colorPrimary1"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-
-                    app:neumorph_shadowColorDark="#1C0505" />
-            </RelativeLayout>
-
-        </soup.neumorphism.NeumorphCardView>
-
-        <soup.neumorphism.NeumorphCardView
-            android:onClick="ODHIKAR_NEWS"
-            style="@style/Widget.Neumorph.CardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            app:neumorph_shapeType="basin">
-
-            <ImageView
-                android:layout_width="250dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
-                android:src="@drawable/odhikarnews"
-                android:scaleType="fitCenter"/>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-
-                >
-
-                <soup.neumorphism.NeumorphTextView
-                    style="@style/Widget.Neumorph.TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="ODHIKAR NEWS"
-                    android:textColor="@color/colorPrimary1"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-
-                    app:neumorph_shadowColorDark="#1C0505" />
-            </RelativeLayout>
-
-        </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
             android:onClick="PRIME_NEWS_BD"
@@ -1889,87 +1446,6 @@
 
         </soup.neumorphism.NeumorphCardView>
 
-        <soup.neumorphism.NeumorphCardView
-            android:onClick="RTNN"
-            style="@style/Widget.Neumorph.CardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            app:neumorph_shapeType="basin">
-
-            <ImageView
-                android:layout_width="220dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
-                android:src="@drawable/rtnn"
-                android:scaleType="fitCenter"/>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-
-                >
-
-                <soup.neumorphism.NeumorphTextView
-                    style="@style/Widget.Neumorph.TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="RTNN"
-                    android:textColor="@color/colorPrimary1"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-
-                    app:neumorph_shadowColorDark="#1C0505" />
-            </RelativeLayout>
-
-        </soup.neumorphism.NeumorphCardView>
-
-        <soup.neumorphism.NeumorphCardView
-            android:onClick="SAHOS_24"
-            style="@style/Widget.Neumorph.CardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            app:neumorph_shapeType="basin">
-
-            <ImageView
-                android:layout_width="220dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
-                android:src="@drawable/sahos24"
-                android:scaleType="fitCenter"/>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-
-                >
-
-                <soup.neumorphism.NeumorphTextView
-                    style="@style/Widget.Neumorph.TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="SAHOS 24"
-                    android:textColor="@color/colorPrimary1"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-
-                    app:neumorph_shadowColorDark="#1C0505" />
-            </RelativeLayout>
-
-        </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
             android:onClick="SAMAKAL_NEWS_24"
@@ -2094,46 +1570,6 @@
 
         </soup.neumorphism.NeumorphCardView>
 
-        <soup.neumorphism.NeumorphCardView
-            android:onClick="SOMOYER_KONTHOSOR"
-            style="@style/Widget.Neumorph.CardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="35dp"
-            app:neumorph_shapeType="basin">
-
-            <ImageView
-                android:layout_width="220dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="35dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
-                android:src="@drawable/somoyerkonthoshor"
-                android:scaleType="fitCenter"/>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:gravity="center"
-
-                >
-
-                <soup.neumorphism.NeumorphTextView
-                    style="@style/Widget.Neumorph.TextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="SOMOYER KONTHOSOR"
-                    android:textColor="@color/colorPrimary1"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-
-                    app:neumorph_shadowColorDark="#1C0505" />
-            </RelativeLayout>
-
-        </soup.neumorphism.NeumorphCardView>
 
         <soup.neumorphism.NeumorphCardView
             android:onClick="THE_REPORT_24"

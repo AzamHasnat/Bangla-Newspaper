@@ -330,26 +330,6 @@ public class NewsPortal extends AppCompatActivity {
 
     }
 
-    public void BARTA_BANGLA(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
-
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(NewsPortal.this, MainActivity.class);
-                intent.putExtra("url","https://bartabangla.com/");
-                intent.putExtra("name","Barta Bangla");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
 
     public void BARTA_KONTHO(View view) {
         if (mInterstitialAd != null) {
@@ -393,26 +373,6 @@ public class NewsPortal extends AppCompatActivity {
 
     }
 
-    public void BD_TIMES_365(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
-
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(NewsPortal.this, MainActivity.class);
-                intent.putExtra("url","https://www.bdtimes365.com/");
-                intent.putExtra("name","BD Times365");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
 
     public void BD_TODAY_24(View view) {
         if (mInterstitialAd != null) {
@@ -498,26 +458,6 @@ public class NewsPortal extends AppCompatActivity {
 
     }
 
-    public void BSS_NEWS(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
-
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(NewsPortal.this, MainActivity.class);
-                intent.putExtra("url","http://www.bssnews.net/bangla/");
-                intent.putExtra("name","Bss News");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
 
     public void CHASHI_SHEBA(View view) {
         if (mInterstitialAd != null) {
@@ -540,26 +480,7 @@ public class NewsPortal extends AppCompatActivity {
 
     }
 
-    public void DAILY_BANGLADESH(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
 
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(NewsPortal.this, MainActivity.class);
-                intent.putExtra("url","https://www.daily-bangladesh.com/");
-                intent.putExtra("name","Daily Bangladesh");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
 
     public void DHAKA_TIMES_24(View view) {
         if (mInterstitialAd != null) {
@@ -582,47 +503,6 @@ public class NewsPortal extends AppCompatActivity {
 
     }
 
-    public void DMP_NEWS(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
-
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(NewsPortal.this, MainActivity.class);
-                intent.putExtra("url","https://dmpnews.org/");
-                intent.putExtra("name","Dmp News");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
-
-    public void FNS_24(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
-
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(NewsPortal.this, MainActivity.class);
-                intent.putExtra("url","https://www.fns24.com/");
-                intent.putExtra("name","Fns 24");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
 
     public void FAST_NEWS_BD(View view) {
         if (mInterstitialAd != null) {
@@ -729,47 +609,6 @@ public class NewsPortal extends AppCompatActivity {
 
     }
 
-    public void KACHER_DEYAL(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
-
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(NewsPortal.this, MainActivity.class);
-                intent.putExtra("url","https://kacherdeyal.com/");
-                intent.putExtra("name","Kacher Deyal");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
-
-    public void LAKHO_KANTHO(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
-
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(NewsPortal.this, MainActivity.class);
-                intent.putExtra("url","http://www.lakhokantho.com/");
-                intent.putExtra("name","Lakho Kantho");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
 
     public void LIVE_PRESS_24(View view) {
         if (mInterstitialAd != null) {
@@ -855,68 +694,6 @@ public class NewsPortal extends AppCompatActivity {
 
     }
 
-    public void NIRAPAD_NEWS(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
-
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(NewsPortal.this, MainActivity.class);
-                intent.putExtra("url","http://www.nirapadnews.com/");
-                intent.putExtra("name","Nirapad News");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
-
-    public void NOTUN_KHOBOR(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
-
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(NewsPortal.this, MainActivity.class);
-                intent.putExtra("url","http://notunkhobor.com/");
-                intent.putExtra("name","Notun Khobor");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
-
-    public void ODHIKAR_NEWS(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
-
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(NewsPortal.this, MainActivity.class);
-                intent.putExtra("url","https://www.odhikar.news/");
-                intent.putExtra("name","Odhikar");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
 
     public void PRIME_NEWS_BD(View view) {
         if (mInterstitialAd != null) {
@@ -960,47 +737,6 @@ public class NewsPortal extends AppCompatActivity {
 
     }
 
-    public void RTNN(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
-
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(NewsPortal.this, MainActivity.class);
-                intent.putExtra("url","http://www.rtnn.net/bangla/");
-                intent.putExtra("name","Rtnn");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
-
-    public void SAHOS_24(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
-
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(NewsPortal.this, MainActivity.class);
-                intent.putExtra("url","https://www.sahos24.com/");
-                intent.putExtra("name","Sahos24");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
 
     public void SAMAKAL_NEWS_24(View view) {
         if (mInterstitialAd != null) {
@@ -1065,26 +801,6 @@ public class NewsPortal extends AppCompatActivity {
 
     }
 
-    public void SOMOYER_KONTHOSOR(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
-
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(NewsPortal.this, MainActivity.class);
-                intent.putExtra("url","http://www.somoyerkonthosor.com/");
-                intent.putExtra("name","Somoyer Konthosor");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
 
     public void THE_REPORT_24(View view) {
         if (mInterstitialAd != null) {
