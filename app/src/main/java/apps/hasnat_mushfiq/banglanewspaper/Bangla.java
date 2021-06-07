@@ -588,27 +588,6 @@ public class Bangla extends AppCompatActivity {
 
     }
 
-    public void BANGLADESH_POST(View view) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAGs", "The interstitial wasn't loaded yet.");
-        }
-
-        mInterstitialAd.setAdListener(new AdListener(){
-            @Override
-            public void onAdClosed() {
-                super.onAdClosed();
-                Intent intent = new Intent(Bangla.this, MainActivity.class);
-                intent.putExtra("url","https://bangladeshpost.net/");
-                intent.putExtra("name","Bangladesh Post");
-                startActivity(intent);
-                mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            }
-        });
-
-    }
-
     public void SOREJOMIN_BARTA(View view) {
         if (mInterstitialAd != null) {
             mInterstitialAd.show();

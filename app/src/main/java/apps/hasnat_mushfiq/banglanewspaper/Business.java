@@ -114,7 +114,7 @@ public class Business extends AppCompatActivity {
             public void onAdClosed() {
                 super.onAdClosed();
                 Intent intent = new Intent(Business.this, MainActivity.class);
-                intent.putExtra("url","http://www.dailysharebiz.net/");
+                intent.putExtra("url","https://sharebiz.net/");
                 intent.putExtra("name","Share Biz");
                 startActivity(intent);
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
