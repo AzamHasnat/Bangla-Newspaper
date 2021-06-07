@@ -259,7 +259,7 @@
 
             </soup.neumorphism.NeumorphCardView>
 
-            <soup.neumorphism.NeumorphCardView
+        <!--    <soup.neumorphism.NeumorphCardView
                 style="@style/Widget.Neumorph.CardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -282,9 +282,9 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:gravity="center"
+                    android:gravity="center">
 
-<<<<<<< HEAD
+
         <soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
@@ -304,9 +304,6 @@
                 android:layout_marginBottom="15dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/bbcbangla" />
-=======
-                    >
->>>>>>> 7c1b0314d8e0ca042e449423b0d3f78994c57f7d
 
                     <soup.neumorphism.NeumorphTextView
                         style="@style/Widget.Neumorph.TextView"
@@ -320,9 +317,9 @@
                         app:neumorph_shadowColorDark="#1C0505" />
                 </RelativeLayout>
 
-            </soup.neumorphism.NeumorphCardView>
+            </soup.neumorphism.NeumorphCardView>-->
 
-            <soup.neumorphism.NeumorphCardView
+       <!--     <soup.neumorphism.NeumorphCardView
                 style="@style/Widget.Neumorph.CardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -340,9 +337,8 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="15dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/amarsangbad" />
+                    android:src="@drawable/amarsangbad" />-->
 
-<<<<<<< HEAD
         <soup.neumorphism.NeumorphCardView
             style="@style/Widget.Neumorph.CardView"
             android:layout_width="match_parent"
@@ -362,13 +358,11 @@
                 android:layout_gravity="center"
                 android:src="@drawable/vaobangla"
                 android:scaleType="fitCenter"/>
-=======
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:gravity="center"
->>>>>>> 7c1b0314d8e0ca042e449423b0d3f78994c57f7d
-
                     >
 
                     <soup.neumorphism.NeumorphTextView
