@@ -55,10 +55,10 @@
                 android:layout_centerInParent="true"
                 android:gravity="center"
                 android:textStyle="bold"
-                android:text="Int. Bangla"
+                android:text="INT. BANGLA"
                 android:textSize="35sp"
                 android:textColor="@color/colorPrimary1"
-                app:neumorph_shadowColorDark="#FF8A65"
+                app:neumorph_shadowColorDark="#710505"
                 app:neumorph_shadowColorLight="#170101"
                 app:neumorph_shadowElevation="@dimen/cardview_compat_inset_shadow"
                 />
@@ -69,10 +69,9 @@
     </androidx.appcompat.widget.Toolbar>
 
     <ScrollView
+        android:layout_below="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/my_toolbar"
-        android:layout_marginTop="-38dp"
         android:background="@android:color/white">
 
         <LinearLayout
