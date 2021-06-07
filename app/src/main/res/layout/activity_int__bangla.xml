@@ -259,6 +259,7 @@
 
             </soup.neumorphism.NeumorphCardView>
 
+<<<<<<< HEAD
             <!--    <soup.neumorphism.NeumorphCardView
                     style="@style/Widget.Neumorph.CardView"
                     android:layout_width="match_parent"
@@ -282,6 +283,9 @@
                         android:layout_height="60dp"
                         android:gravity="center">
             <soup.neumorphism.NeumorphCardView
+=======
+        <!--    <soup.neumorphism.NeumorphCardView
+>>>>>>> f588aefe9de55a0e36932647e22e889991c6bdde
                 style="@style/Widget.Neumorph.CardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -298,6 +302,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="15dp"
                     android:scaleType="fitCenter"
+<<<<<<< HEAD
                     android:src="@drawable/bbcbangla" />
                         <soup.neumorphism.NeumorphTextView
                             style="@style/Widget.Neumorph.TextView"
@@ -329,8 +334,51 @@
                          android:layout_marginBottom="15dp"
                          android:scaleType="fitCenter"
                          android:src="@drawable/amarsangbad" />-->
+=======
+                    android:src="@drawable/chinadaily" />
 
-            <soup.neumorphism.NeumorphCardView
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center">
+
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="BBC_Bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bbcbangla" />
+
+                    <soup.neumorphism.NeumorphTextView
+                        style="@style/Widget.Neumorph.TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="China Radio Bangla"
+                        android:textColor="@color/colorPrimary1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+
+                        app:neumorph_shadowColorDark="#1C0505" />
+                </RelativeLayout>
+
+            </soup.neumorphism.NeumorphCardView>-->
+>>>>>>> f588aefe9de55a0e36932647e22e889991c6bdde
+
+       <!--     <soup.neumorphism.NeumorphCardView
                 style="@style/Widget.Neumorph.CardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -344,12 +392,38 @@
                     android:layout_height="50dp"
                     android:layout_marginTop="30dp"
                     android:layout_marginBottom="15dp"
+<<<<<<< HEAD
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_gravity="center"
                     android:src="@drawable/vaobangla"
                     android:scaleType="fitCenter"/>
 
+=======
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/amarsangbad" />-->
+
+        <soup.neumorphism.NeumorphCardView
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:onClick="Vao_Bangla"
+            app:neumorph_shapeType="basin">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/vaobangla"
+                android:scaleType="fitCenter"/>
+
+>>>>>>> f588aefe9de55a0e36932647e22e889991c6bdde
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
