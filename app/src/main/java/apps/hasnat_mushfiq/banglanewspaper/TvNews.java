@@ -24,7 +24,7 @@ public class TvNews extends AppCompatActivity {
         setContentView(R.layout.activity_tv_news);
 
         mInterstitialAd =new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.setAdUnitId("ca-app-pub-4998576540264970/8904049815");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         adView = findViewById(R.id.adView);

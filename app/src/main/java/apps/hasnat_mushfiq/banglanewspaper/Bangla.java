@@ -29,7 +29,7 @@ public class Bangla extends AppCompatActivity {
         setContentView(R.layout.activity_bangla);
 
         mInterstitialAd =new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.setAdUnitId("ca-app-pub-4998576540264970/8904049815");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         adView = findViewById(R.id.adView);
@@ -42,10 +42,7 @@ public class Bangla extends AppCompatActivity {
 
     public void prothomalo(View view) {
 
-        /*Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("url","https://www.prothomalo.com/");
-        intent.putExtra("name","Prothom Alo");
-        startActivity(intent);*/
+
 
         if (mInterstitialAd != null) {
             mInterstitialAd.show();
@@ -53,14 +50,17 @@ public class Bangla extends AppCompatActivity {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
 
+
+        Intent intent = new Intent(Bangla.this, MainActivity.class);
+        intent.putExtra("url","https://www.prothomalo.com/");
+        intent.putExtra("name","Prothom Alo");
+        startActivity(intent);
+
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(Bangla.this, MainActivity.class);
-                intent.putExtra("url","https://www.prothomalo.com/");
-                intent.putExtra("name","Prothom Alo");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -77,6 +77,8 @@ public class Bangla extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
+
+
 
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
