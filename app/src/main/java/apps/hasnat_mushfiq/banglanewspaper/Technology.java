@@ -42,15 +42,15 @@ public class Technology extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(Technology.this, MainActivity.class);
+        intent.putExtra("url","https://banglatech24.com/");
+        intent.putExtra("name","BANGLA TECH24");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(Technology.this, MainActivity.class);
-                intent.putExtra("url","https://banglatech24.com/");
-                intent.putExtra("name","BANGLA TECH24");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -63,15 +63,15 @@ public class Technology extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(Technology.this, MainActivity.class);
+        intent.putExtra("url","https://www.biztech24.com/");
+        intent.putExtra("name","BIZ TECH24");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(Technology.this, MainActivity.class);
-                intent.putExtra("url","https://www.biztech24.com/");
-                intent.putExtra("name","BIZ TECH24");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -85,15 +85,15 @@ public class Technology extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(Technology.this, MainActivity.class);
+        intent.putExtra("url","https://www.dailyictnews.com/");
+        intent.putExtra("name","DAILY ICT NEWS");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(Technology.this, MainActivity.class);
-                intent.putExtra("url","https://www.dailyictnews.com/");
-                intent.putExtra("name","DAILY ICT NEWS");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -107,15 +107,15 @@ public class Technology extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(Technology.this, MainActivity.class);
+        intent.putExtra("url","https://techzoom.tv/");
+        intent.putExtra("name","TECH ZOOM");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(Technology.this, MainActivity.class);
-                intent.putExtra("url","https://techzoom.tv/");
-                intent.putExtra("name","TECH ZOOM");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -129,15 +129,15 @@ public class Technology extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(Technology.this, MainActivity.class);
+        intent.putExtra("url","https://www.digit.in/bn/");
+        intent.putExtra("name","DIGIT");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(Technology.this, MainActivity.class);
-                intent.putExtra("url","https://www.digit.in/bn/");
-                intent.putExtra("name","DIGIT");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -151,15 +151,15 @@ public class Technology extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(Technology.this, MainActivity.class);
+        intent.putExtra("url","https://techgup.com/");
+        intent.putExtra("name","TECH GUP");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(Technology.this, MainActivity.class);
-                intent.putExtra("url","https://techgup.com/");
-                intent.putExtra("name","TECH GUP");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -173,15 +173,15 @@ public class Technology extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(Technology.this, MainActivity.class);
+        intent.putExtra("url","https://bangla.asianetnews.com/technology");
+        intent.putExtra("name","ASIANET NEWS TECH");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(Technology.this, MainActivity.class);
-                intent.putExtra("url","https://bangla.asianetnews.com/technology");
-                intent.putExtra("name","ASIANET NEWS TECH");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });

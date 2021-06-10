@@ -41,15 +41,15 @@ public class English extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(English.this, MainActivity.class);
+        intent.putExtra("url","https://www.thedailystar.net/");
+        intent.putExtra("name","The Daily Star");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(English.this, MainActivity.class);
-                intent.putExtra("url","https://www.thedailystar.net/");
-                intent.putExtra("name","The Daily Star");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -61,15 +61,15 @@ public class English extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(English.this, MainActivity.class);
+        intent.putExtra("url","https://www.newagebd.net/");
+        intent.putExtra("name","New Age");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(English.this, MainActivity.class);
-                intent.putExtra("url","https://www.newagebd.net/");
-                intent.putExtra("name","New Age");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -83,15 +83,15 @@ public class English extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(English.this, MainActivity.class);
+        intent.putExtra("url","https://thefinancialexpress.com.bd/");
+        intent.putExtra("name","The Financial Express");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(English.this, MainActivity.class);
-                intent.putExtra("url","https://thefinancialexpress.com.bd/");
-                intent.putExtra("name","The Financial Express");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -104,15 +104,15 @@ public class English extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(English.this, MainActivity.class);
+        intent.putExtra("url","https://www.tbsnews.net/");
+        intent.putExtra("name","The Business Standard");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(English.this, MainActivity.class);
-                intent.putExtra("url","https://www.tbsnews.net/");
-                intent.putExtra("name","The Business Standard");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -125,15 +125,15 @@ public class English extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(English.this, MainActivity.class);
+        intent.putExtra("url","https://www.dhakatribune.com/");
+        intent.putExtra("name","Dhaka Tribune");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(English.this, MainActivity.class);
-                intent.putExtra("url","https://www.dhakatribune.com/");
-                intent.putExtra("name","Dhaka Tribune");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -146,15 +146,15 @@ public class English extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(English.this, MainActivity.class);
+        intent.putExtra("url","https://www.daily-sun.com/");
+        intent.putExtra("name","Daily Sun");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(English.this, MainActivity.class);
-                intent.putExtra("url","https://www.daily-sun.com/");
-                intent.putExtra("name","Daily Sun");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -167,15 +167,15 @@ public class English extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(English.this, MainActivity.class);
+        intent.putExtra("url","https://m.theindependentbd.com/");
+        intent.putExtra("name","The Independent");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(English.this, MainActivity.class);
-                intent.putExtra("url","https://m.theindependentbd.com/");
-                intent.putExtra("name","The Independent");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -188,15 +188,15 @@ public class English extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(English.this, MainActivity.class);
+        intent.putExtra("url","https://dailyasianage.com/");
+        intent.putExtra("name","The Asian Age");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(English.this, MainActivity.class);
-                intent.putExtra("url","https://dailyasianage.com/");
-                intent.putExtra("name","The Asian Age");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -209,15 +209,15 @@ public class English extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(English.this, MainActivity.class);
+        intent.putExtra("url","https://thebangladeshtoday.com/");
+        intent.putExtra("name","The Bangladesh Today");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(English.this, MainActivity.class);
-                intent.putExtra("url","https://thebangladeshtoday.com/");
-                intent.putExtra("name","The Bangladesh Today");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -230,15 +230,15 @@ public class English extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(English.this, MainActivity.class);
+        intent.putExtra("url","https://www.observerbd.com/");
+        intent.putExtra("name","The Daily Observer");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(English.this, MainActivity.class);
-                intent.putExtra("url","https://www.observerbd.com/");
-                intent.putExtra("name","The Daily Observer");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -251,15 +251,15 @@ public class English extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(English.this, MainActivity.class);
+        intent.putExtra("url","https://bangladeshpost.net/");
+        intent.putExtra("name","Bangladesh Post");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(English.this, MainActivity.class);
-                intent.putExtra("url","https://bangladeshpost.net/");
-                intent.putExtra("name","Bangladesh Post");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });

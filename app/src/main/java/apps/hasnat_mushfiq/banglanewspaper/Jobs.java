@@ -40,15 +40,15 @@ public class Jobs extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(Jobs.this, MainActivity.class);
+        intent.putExtra("url","https://www.bdjobs.com/");
+        intent.putExtra("name","Bd Jobs");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(Jobs.this, MainActivity.class);
-                intent.putExtra("url","https://www.bdjobs.com/");
-                intent.putExtra("name","Bd Jobs");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -60,15 +60,15 @@ public class Jobs extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(Jobs.this, MainActivity.class);
+        intent.putExtra("url","https://bangladesh.gov.bd/site/view/job_category/");
+        intent.putExtra("name","BD Govt Jobs");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(Jobs.this, MainActivity.class);
-                intent.putExtra("url","https://bangladesh.gov.bd/site/view/job_category/");
-                intent.putExtra("name","BD Govt Jobs");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -80,15 +80,15 @@ public class Jobs extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(Jobs.this, MainActivity.class);
+        intent.putExtra("url","https://jobs.shonarbd.com/");
+        intent.putExtra("name","Shonar BD Jobs");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(Jobs.this, MainActivity.class);
-                intent.putExtra("url","https://jobs.shonarbd.com/");
-                intent.putExtra("name","Shonar BD Jobs");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
@@ -100,15 +100,15 @@ public class Jobs extends AppCompatActivity {
         } else {
             Log.d("TAGs", "The interstitial wasn't loaded yet.");
         }
-
+        Intent intent = new Intent(Jobs.this, MainActivity.class);
+        intent.putExtra("url","https://alljobscircularbd.com/?fbclid=IwAR1XJJQtE8M6NUn25a9-oMK-CKeb15HXZ-jfncCWqQATog5eRpumz3OP9uo");
+        intent.putExtra("name","All Jobs Circular BD ");
+        startActivity(intent);
         mInterstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                Intent intent = new Intent(Jobs.this, MainActivity.class);
-                intent.putExtra("url","https://alljobscircularbd.com/?fbclid=IwAR1XJJQtE8M6NUn25a9-oMK-CKeb15HXZ-jfncCWqQATog5eRpumz3OP9uo");
-                intent.putExtra("name","All Jobs Circular BD ");
-                startActivity(intent);
+
                 mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
