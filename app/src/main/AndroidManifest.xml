@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="apps.hasnat_mushfiq.banglanewspaper">
+    package="apps.hasnat.news">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -22,34 +22,35 @@
             android:value="ca-app-pub-4998576540264970~9762622335"/>
 
 
-        <activity android:name=".home_new">
+        <activity android:name="apps.hasnat.news.home_new"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TvNews" />
-        <activity android:name=".Technology" />
-        <activity android:name=".Sports" />
-        <activity android:name=".Radio" />
-        <activity android:name=".NewsPortal" />
-        <activity android:name=".Jobs" />
-        <activity android:name=".International">
+        <activity android:name="apps.hasnat.news.TvNews" />
+        <activity android:name="apps.hasnat.news.Technology" />
+        <activity android:name="apps.hasnat.news.Sports" />
+        <activity android:name="apps.hasnat.news.Radio" />
+        <activity android:name="apps.hasnat.news.NewsPortal" />
+        <activity android:name="apps.hasnat.news.Jobs" />
+        <activity android:name="apps.hasnat.news.International">
 
         </activity>
-        <activity android:name=".Epaper" />
-        <activity android:name=".Entertainment" />
-        <activity android:name=".Business" />
-        <activity android:name=".English" />
-        <activity android:name=".Bangla" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".TestingActivity" />
+        <activity android:name="apps.hasnat.news.Epaper" />
+        <activity android:name="apps.hasnat.news.Entertainment" />
+        <activity android:name="apps.hasnat.news.Business" />
+        <activity android:name="apps.hasnat.news.English" />
+        <activity android:name="apps.hasnat.news.Bangla" />
+        <activity android:name="apps.hasnat.news.MainActivity" />
+        <activity android:name="apps.hasnat.news.TestingActivity" />
         <activity
-            android:name=".Home"
+            android:name="apps.hasnat.news.Home"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
 
-        <activity android:name=".Int_Bangla"></activity>
+        <activity android:name="apps.hasnat.news.Int_Bangla"></activity>
     </application>
 
 
